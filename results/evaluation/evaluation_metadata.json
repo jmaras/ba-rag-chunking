@@ -1,0 +1,13 @@
+{
+  "timestamp": "2025-12-19T10:03:23.299632",
+  "testset": "C:\\Users\\Julian\\Desktop\\BA\\data\\testset\\testset_50_questions.json",
+  "num_questions": 50,
+  "k_values": [
+    3,
+    5,
+    10
+  ],
+  "flat_recall_mean": 0.32852380952380955,
+  "hier_recall_mean": 0.453125,
+  "improvement_pct": 37.92759820263805
+}

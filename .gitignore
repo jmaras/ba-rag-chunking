@@ -1,0 +1,23 @@
+# Virtuelle Umgebung
+venv/
+
+# Umgebungsvariablen (API-Keys etc.)
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Vertrauliche Daten (GEFEG-Schulungsunterlagen)
+data/raw/
+data/parsed/
+data/chunks/
+data/faiss_index/
+
+# Betriebssystem
+.DS_Store
+Thumbs.db

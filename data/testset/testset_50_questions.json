@@ -1,0 +1,1218 @@
+{
+  "metadata": {
+    "version": "2.0",
+    "created_by": "JM",
+    "date": "2025-12-15",
+    "total_questions": 50
+  },
+  "distribution": {
+    "by_type": {
+      "definition": 13,
+      "process": 16,
+      "application": 12,
+      "comparison": 6,
+      "troubleshooting": 3
+    },
+    "by_difficulty": {
+      "beginner": 13,
+      "intermediate": 27,
+      "advanced": 10
+    }
+  },
+  "questions": [
+    {
+      "question": "Was ist EDI (Electronic Data Interchange)?",
+      "type": "definition",
+      "difficulty": "beginner",
+      "keywords": [
+        "EDI",
+        "Electronic Data Interchange",
+        "Datenaustausch"
+      ],
+      "topic": "EDI Grundlagen",
+      "id": 1,
+      "ground_truth": {
+        "flat_chunks": [
+          0
+        ],
+        "hierarchical_chunks": [
+          0,
+          1
+        ],
+        "answer_summary": "EDI ist eine Technologie zum Austausch von betriebswirtschaftlichen Informationen über standardisierte Datenschnittstellen."
+      }
+    },
+    {
+      "question": "Was ist ein XML-Schema (XSD)?",
+      "type": "definition",
+      "difficulty": "beginner",
+      "keywords": [
+        "XML-Schema",
+        "XSD",
+        "Schema"
+      ],
+      "topic": "XML Grundlagen",
+      "id": 2,
+      "ground_truth": {
+        "flat_chunks": [
+          116,
+          117
+        ],
+        "hierarchical_chunks": [
+          138
+        ],
+        "answer_summary": "XML-Schemasprachen definieren die Struktur von XML-Dokumenten und geben also ein Schema vor. Sie eignen sich zudem zur Definition eigener XML-Vokabulare. XSD ist eine solche Schemasprache."
+      }
+    },
+    {
+      "question": "Was bedeutet 'Well-Formed' bei XML-Dokumenten?",
+      "type": "definition",
+      "difficulty": "beginner",
+      "keywords": [
+        "Well-Formed",
+        "XML",
+        "Syntax"
+      ],
+      "topic": "XML Grundlagen",
+      "id": 3,
+      "ground_truth": {
+        "flat_chunks": [
+          119,
+          120
+        ],
+        "hierarchical_chunks": [
+          141,
+          142
+        ],
+        "answer_summary": "Wohlgeformte (well-formed) XML-Dokumente folgen der XML-Syntax. Die W3C Regeln für korrektes ('wohlgeformtes') XML ermöglichen einem XML-Parser, das XML-Dokument syntaktisch zu überprüfen."
+      }
+    },
+    {
+      "question": "Was ist ein XML-Namespace?",
+      "type": "definition",
+      "difficulty": "intermediate",
+      "keywords": [
+        "Namespace",
+        "xmlns",
+        "XML"
+      ],
+      "topic": "XML Grundlagen",
+      "id": 4,
+      "ground_truth": {
+        "flat_chunks": [
+          125,
+          126
+        ],
+        "hierarchical_chunks": [
+          147
+        ],
+        "answer_summary": "XML-Namensräume (XML namespaces / xmlns) wurden eingeführt, um verschiedene, aber gleich bezeichnete Informationen voneinander abzugrenzen. Sie verhindern Namenskonflikte, wenn XML-Inhalte mit unterschiedlicher Bedeutung gleiche XML-Bezeichner (Tags) zugewiesen bekommen. Jedem Namensraum wird ein eindeutiger Identifier zugewiesen -- der URI (Uniform Resource Identifier). Der URI dient nur zur eindeutigen Bezeichnung des Namensraumes - es muss keine Datei an einer URI-Adresse hinterlegt sein."
+      }
+    },
+    {
+      "question": "Was ist X.400 und wo wird es eingesetzt?",
+      "type": "definition",
+      "difficulty": "intermediate",
+      "keywords": [
+        "X.400",
+        "Message Handling System",
+        "MHS"
+      ],
+      "topic": "Nachrichtenübertragung",
+      "id": 5,
+      "ground_truth": {
+        "flat_chunks": [
+          4,
+          5
+        ],
+        "hierarchical_chunks": [
+          7
+        ],
+        "answer_summary": "X.400, oft auch Message Handling System (MHS) genannt, ist ein E-Mail-System auf Basis des OSI-Modells und eine Alternative zu Internet-E-Mail. Der Standard wurde 1984 durch die CCITT herausgegeben und 1988 erweitert. Die ISO bezeichnet das System in ihrer Norm ISO 10021 als Message Oriented Text Interchange System (MOTIS). EDI-Systeme verwenden häufig X.400 für die Übertragung der Daten. Insbesondere im Lebensmittelhandel wird X.400 häufig eingesetzt. X.400 ist neben AS2 eine der häufigsten Kommunikationsformen, die im professionellen elektronischen Datenaustausch verwendet werden."
+      }
+    },
+    {
+      "question": "Was ist EDIFACT?",
+      "type": "definition",
+      "difficulty": "beginner",
+      "keywords": [
+        "EDIFACT",
+        "UN/EDIFACT",
+        "Standard"
+      ],
+      "topic": "Nachrichtenformate",
+      "id": 6,
+      "ground_truth": {
+        "flat_chunks": [
+          0,
+          6,
+          7
+        ],
+        "hierarchical_chunks": [
+          2,
+          9
+        ],
+        "answer_summary": "EDIFACT ist ein EDI-Standard mit der ISO-Nummer 9735. Es handelt sich um einen der EDI-Standards, nach denen die Darstellung der Fachinhalte in einer Datenschnittstelle erfolgt."
+      }
+    },
+    {
+      "question": "Was ist ein XML-Element?",
+      "type": "definition",
+      "difficulty": "beginner",
+      "keywords": [
+        "Element",
+        "XML",
+        "Tag"
+      ],
+      "topic": "XML Grundlagen",
+      "id": 7,
+      "ground_truth": {
+        "flat_chunks": [
+          33,
+          117,
+          123
+        ],
+        "hierarchical_chunks": [
+          41,
+          140,
+          145
+        ],
+        "answer_summary": "Ein XML-Dokument besteht aus verschiedenen Bestandteilen, darunter Elemente (evtl. mit Attributen). Elemente und Attribute enthalten die eigentlichen Informationen in einem XML-Dokument. Elemente basieren auf komplexen oder einfachen Typen. Einfache Elemente können keine Attribute besitzen, während Elemente mit Attributen als komplexe Elemente gelten."
+      }
+    },
+    {
+      "question": "Was ist XPath?",
+      "type": "definition",
+      "difficulty": "intermediate",
+      "keywords": [
+        "XPath",
+        "Abfragesprache",
+        "Navigation"
+      ],
+      "topic": "XML Technologien",
+      "id": 8,
+      "ground_truth": {
+        "flat_chunks": [
+          128,
+          129
+        ],
+        "hierarchical_chunks": [
+          151
+        ],
+        "answer_summary": "XPath ist eine Transformationssprache zur Baumadressierung, die zur XSL-Familie gehört. Sie dient der Adressierung von XML-Dokumentbestandteilen."
+      }
+    },
+    {
+      "question": "Was ist XSLT?",
+      "type": "definition",
+      "difficulty": "intermediate",
+      "keywords": [
+        "XSLT",
+        "Transformation",
+        "Stylesheet"
+      ],
+      "topic": "XML Technologien",
+      "id": 9,
+      "ground_truth": {
+        "flat_chunks": [
+          128,
+          129
+        ],
+        "hierarchical_chunks": [
+          151
+        ],
+        "answer_summary": "XSLT ist eine Transformationssprache zur Umwandlung von (XML-)Dokumenten bzw. XML-Sprachen. Sie gehört zur XSL-Familie und kann als Ergebnis z.B. XML oder EDI-Flatfile erzeugen."
+      }
+    },
+    {
+      "question": "Was ist ein SimpleType in XML Schema?",
+      "type": "definition",
+      "difficulty": "intermediate",
+      "keywords": [
+        "SimpleType",
+        "Datentyp",
+        "XSD"
+      ],
+      "topic": "XML Schema",
+      "id": 10,
+      "ground_truth": {
+        "flat_chunks": [
+          33,
+          123
+        ],
+        "hierarchical_chunks": [
+          41,
+          145
+        ],
+        "answer_summary": "Einfache Typen (simpleTypes) können definiert und dann von Elementen oder Attributen verwendet werden. Einfache Typen können keine weiteren Attribute oder Elemente beinhalten - im Gegensatz zu komplexen Typen (complexTypes). Elemente basieren auf komplexen oder einfachen Typen, während Attribute immer auf einfachen Typen basieren."
+      }
+    },
+    {
+      "question": "Was ist eine Substitution Group in XML Schema?",
+      "type": "definition",
+      "difficulty": "advanced",
+      "keywords": [
+        "Substitution Group",
+        "Ersetzung",
+        "XSD"
+      ],
+      "topic": "XML Schema",
+      "id": 11,
+      "ground_truth": {
+        "flat_chunks": [
+          31
+        ],
+        "hierarchical_chunks": [
+          39
+        ],
+        "answer_summary": "SubstitutionGroups schaffen die Möglichkeit, Elemente untereinander austauschbar (ersetzbar) zu machen. Es gibt ein gemeinsames globales Ursprungselement in der SubstitutionGroup. Ein Element kann dann in einer XML-Datei durch ein anderes Element der gleichen SubstitutionGroup ersetzt werden."
+      }
+    },
+    {
+      "question": "Was versteht man unter Schema-Validierung?",
+      "type": "definition",
+      "difficulty": "beginner",
+      "keywords": [
+        "Validierung",
+        "Schema",
+        "Prüfung"
+      ],
+      "topic": "XML Validierung",
+      "id": 12,
+      "ground_truth": {
+        "flat_chunks": [
+          119,
+          120,
+          78
+        ],
+        "hierarchical_chunks": [
+          141,
+          142,
+          97
+        ],
+        "answer_summary": "Bei der Validierung wird überprüft, ob die Struktur eines XML-Dokumentes mit den in der Strukturdatei (Schema) gemachten Vorgaben übereinstimmt. XML-Instanzen können dabei in syntaktischer und semantischer Hinsicht geprüft werden. Ein validierender XML-Parser überprüft zusätzlich zur syntaktischen Korrektheit das XML-Dokument gegen eine Strukturvorlage (Schema)"
+      }
+    },
+    {
+      "question": "Was ist eine Message Disposition Notification (MDN) bei AS2?",
+      "type": "definition",
+      "difficulty": "advanced",
+      "keywords": [
+        "MDN",
+        "AS2",
+        "Empfangsbestätigung"
+      ],
+      "topic": "Nachrichtenübertragung",
+      "id": 13,
+      "ground_truth": {
+        "flat_chunks": [
+          4,
+          5
+        ],
+        "hierarchical_chunks": [
+          6
+        ],
+        "answer_summary": "Eine MDN ist eine digitale Empfangsquittung, die der Absender aus dem AS2-Protokoll erhält. Mit der MDN kann der Absender die fristgerechte Zustellung beweisen. Der Anwender besitzt mit der MDN den Beweis der Revisionssicherheit in Nachricht-Form und ist nicht auf technische Protokolle angewiesen."
+      }
+    },
+    {
+      "question": "Wie validiert man ein XML-Dokument gegen ein Schema?",
+      "type": "process",
+      "difficulty": "beginner",
+      "keywords": [
+        "Validierung",
+        "Schema",
+        "XML"
+      ],
+      "topic": "XML Validierung",
+      "id": 14,
+      "ground_truth": {
+        "flat_chunks": [
+          69,
+          81,
+          129,
+          130
+        ],
+        "hierarchical_chunks": [
+          87,
+          100,
+          152
+        ],
+        "answer_summary": "Die Validierung erfolgt in zwei Schritten: 1. Validierungsschritt: Das XML-Dokument wird gegen das zugehörige XML-Schema (XSD) geprüft. Ergeben sich hier Fehler, wird der Prozess abgebrochen und optional ein Fehlerreport ausgegeben. 2. Validierungsschritt: Wenn das XML-Dokument valide ist, wird zusätzlich die regelbasierte Schematron-Prüfung vorgenommen und ein Überprüfungsreport ausgegeben. Mit GEFEG.FX lassen sich XML-Nachrichten auf ihre syntaktische und inhaltliche Richtigkeit testen."
+      }
+    },
+    {
+      "question": "Wie erstellt man ein XML-Schema in GEFEG.FX?",
+      "type": "process",
+      "difficulty": "intermediate",
+      "keywords": [
+        "Schema erstellen",
+        "GEFEG.FX",
+        "XSD"
+      ],
+      "topic": "GEFEG",
+      "id": 15,
+      "ground_truth": {
+        "flat_chunks": [
+          29,
+          85
+        ],
+        "hierarchical_chunks": [
+          36,
+          106
+        ],
+        "answer_summary": "Um ein neues XML-Schema in GEFEG.FX anzulegen, folgt man diesen Schritten: 1. Im Manager den gewünschten Ordner markieren und Neu > XML-Schema > XML-Schema aus dem Kontextmenü wählen 2. Eindeutige Bezeichnung vergeben: Kurzname (z.B. 'Order'), Version (z.B. '1.0'), Variante (z.B. 'Training'), Pfad festlegen 3. Die letzte oder aktuellste Version des GEFEG.FX Datenformats wählen 4. Schaltfläche Weiter 5. Als Schematyp W3C-XML-Schema+Extensions wählen, um kontextabhängige Verfeinerungen vornehmen zu können 6. Schaltfläche Weiter 7. Autornamen und Herausgabedatum vergeben 8. Schaltfläche Fertigstellen - Das erstellte Schema wird nach Fertigstellung automatisch geöffnet."
+      }
+    },
+    {
+      "question": "Wie erstellt man einen SimpleType mit Enumeration?",
+      "type": "process",
+      "difficulty": "intermediate",
+      "keywords": [
+        "SimpleType",
+        "Enumeration",
+        "Codeliste"
+      ],
+      "topic": "XML Schema",
+      "id": 16,
+      "ground_truth": {
+        "flat_chunks": [
+          36,
+          37
+        ],
+        "hierarchical_chunks": [
+          45
+        ],
+        "answer_summary": "Um einen SimpleType mit Enumeration (Codeliste) zu erstellen: 1. Im Ordner Types einen neuen SimpleType anlegen (z.B. über Neu > SimpleType) 2. Den SimpleType benennen (z.B. 'WeightType') 3. Die Registerkarte Codes auswählen 4. Im oberen Teil über das Kontextmenü die Funktion Neuer Code aufrufen 5. Die gewünschten Codewerte nacheinander eintragen (z.B. GRM, KGM, MGM, TNE) 6. Für den Codenamen: Einen Code selektieren, dann in den unteren Teil der Registerkarte klicken und über das Kontextmenü Neu > Note wählen. Mit dem Identifier Name den Codenamen eingeben (z.B. GRM=Gram, KGM=Kilogram)"
+      }
+    },
+    {
+      "question": "Wie erstellt man eine Schematron-Regel in GEFEG.FX?",
+      "type": "process",
+      "difficulty": "advanced",
+      "keywords": [
+        "Schematron",
+        "Regel",
+        "GEFEG.FX"
+      ],
+      "topic": "XML Validierung",
+      "id": 17,
+      "ground_truth": {
+        "flat_chunks": [
+          96,
+          97
+        ],
+        "hierarchical_chunks": [
+          119,
+          120
+        ],
+        "answer_summary": "Eine Schematron-Regel in GEFEG.FX erstellt man über Check-Notes. Vorgehensweise: 1) Check-Note-Ordner wählen und über Kontextmenü 'Neu > Check-Note' erstellen. 2) Eigenschaften definieren: ID und Beschreibung der Prüfung. 3) Kontext festlegen: XPath-Lokalisierungspfad zur Prüfstelle (z.B. $this für aktuelles Element). 4) Assertion eingeben: Schematron-Test-Bedingung, die erfüllt sein muss. 5) Report-Nachricht: Text für Fehlermeldung bei nicht erfüllter Assertion. Die Regel wird beim Speichern des Schemas automatisch in die generierte Schematron-Datei übernommen."
+      }
+    },
+    {
+      "question": "Wie exportiert man ein XML-Schema aus GEFEG.FX?",
+      "type": "process",
+      "difficulty": "beginner",
+      "keywords": [
+        "Export",
+        "Schema",
+        "GEFEG.FX"
+      ],
+      "topic": "GEFEG",
+      "id": 18,
+      "ground_truth": {
+        "flat_chunks": [
+          66
+        ],
+        "hierarchical_chunks": [
+          83
+        ],
+        "answer_summary": "Aus GEFEG.FX lassen sich XML-Schemata in verschiedene Formate exportieren. Für den Export einer XSD-Datei: Im Manager das gewünschte Schema markieren und Exportieren > XSD-Datei wählen, dann den Speicherpfad angeben."
+      }
+    },
+    {
+      "question": "Wie importiert man ein externes Schema in GEFEG.FX?",
+      "type": "process",
+      "difficulty": "intermediate",
+      "keywords": [
+        "Import",
+        "externes Schema",
+        "GEFEG.FX"
+      ],
+      "topic": "GEFEG",
+      "id": 19,
+      "ground_truth": {
+        "flat_chunks": [
+          64,
+          65
+        ],
+        "hierarchical_chunks": [
+          80
+        ],
+        "answer_summary": "Externe XSD-Dateien können nach GEFEG.FX importiert und in GEFEG.FX XML-Schemas umgewandelt werden. Vorgehensweise: 1. Im Manager einen Ordner auswählen 2. Importieren > XML Schema > XSD Dateien... über das Kontextmenü wählen 3. Quelle angeben (Pfad zu den XSD-Dateien) 4. Version und Variante festlegen oder leer lassen 5. Die aktuellste Version des Datenformats wählen 6. Optional: Eigenschaften des XML-Schemas erben (z.B. von einem Template) 7. Schema-Typ wählen (z.B. W3C-XML-Schema+Extensions) 8. Note-Informationen-Behandlung festlegen 9. Autor und Herausgabedatum eingeben und mit Fertigstellen abschließen"
+      }
+    },
+    {
+      "question": "Wie erstellt man eine Attributgruppe (AttributeGroup)?",
+      "type": "process",
+      "difficulty": "intermediate",
+      "keywords": [
+        "AttributeGroup",
+        "Gruppe",
+        "XSD"
+      ],
+      "topic": "XML Schema",
+      "id": 20,
+      "ground_truth": {
+        "flat_chunks": [
+          30
+        ],
+        "hierarchical_chunks": [
+          37
+        ],
+        "answer_summary": "Um eine Attributgruppe zu erstellen: 1. Zum Basisordner AttributeGroups gehen 2. Neu > Attributgruppe über das Kontextmenü wählen 3. Die Attributgruppe benennen 4. Globale Attribute zur Gruppe hinzufügen über Neu > GlobalesAttribut..."
+      }
+    },
+    {
+      "question": "Wie leitet man einen Typ durch Extension ab?",
+      "type": "process",
+      "difficulty": "intermediate",
+      "keywords": [
+        "Extension",
+        "Ableitung",
+        "XSD"
+      ],
+      "topic": "XML Schema",
+      "id": 21,
+      "ground_truth": {
+        "flat_chunks": [
+          33,
+          41,
+          123,
+          124
+        ],
+        "hierarchical_chunks": [
+          40,
+          50,
+          145,
+          146
+        ],
+        "answer_summary": "Um einen Typ durch Erweiterung (Extension) abzuleiten: 1. Einen neuen Typ erstellen (z.B. ComplexType) 2. Den neuen Typ selektieren 3. Im Eigenschaftenbereich Ableitung durch extension... wählen 4. Als Basistyp den vorhandenen Typ auswählen, der erweitert werden soll 5. Die Baumstruktur des neuen Typs öffnen - geerbte Elemente werden in blau angezeigt 6. Neue Elemente hinzufügen (z.B. über Neu > sequence)"
+      }
+    },
+    {
+      "question": "Wie fügt man Dokumentation (Annotations) zu einem Schema hinzu?",
+      "type": "process",
+      "difficulty": "beginner",
+      "keywords": [
+        "Annotation",
+        "Dokumentation",
+        "XSD"
+      ],
+      "topic": "XML Schema",
+      "id": 22,
+      "ground_truth": {
+        "flat_chunks": [
+          47,
+          48,
+          49
+        ],
+        "hierarchical_chunks": [
+          59,
+          60
+        ],
+        "answer_summary": "Dokumentation wird in GEFEG.FX über Notes (Kommentare) hinzugefügt. Diese werden auf der Registerkarte Notes erfasst und können verschiedene Typen wie Name, Beschreibung oder Beispiele sein. Notes werden kontextabhängig vererbt und können überschrieben werden."
+      }
+    },
+    {
+      "question": "Wie erstellt man eine Substitution Group?",
+      "type": "process",
+      "difficulty": "advanced",
+      "keywords": [
+        "Substitution Group",
+        "Erstellen",
+        "XSD"
+      ],
+      "topic": "XML Schema",
+      "id": 23,
+      "ground_truth": {
+        "flat_chunks": [
+          31,
+          32
+        ],
+        "hierarchical_chunks": [
+          39
+        ],
+        "answer_summary": "SubstitutionGroups ermöglichen es, Elemente untereinander austauschbar zu machen. Ein Element kann durch ein anderes ersetzt werden, indem man es einer SubstitutionGroup zuweist. Vorgehensweise: 1. Im Basisordner Elements einen Unterordner Substitution erstellen 2. Darin ein globales Element erstellen (z.B. Town) 3. Für dieses Element die SubstitutionGroup auf ein anderes Element setzen (z.B. City) 4. Das Element in der SubstitutionGroup kann nun durch das neue Element ersetzt werden"
+      }
+    },
+    {
+      "question": "Wie definiert man ein globales Element vs. lokales Element?",
+      "type": "process",
+      "difficulty": "intermediate",
+      "keywords": [
+        "global",
+        "lokal",
+        "Element"
+      ],
+      "topic": "XML Schema",
+      "id": 24,
+      "ground_truth": {
+        "flat_chunks": [
+          28,
+          31,
+          41,
+          42
+        ],
+        "hierarchical_chunks": [
+          34,
+          38,
+          50
+        ],
+        "answer_summary": "Globale Elemente haben einen eindeutigen Namen und sind direktes Unterobjekt von xs:schema. Sie können überall referenziert und wiederverwendet werden. Lokale Elemente werden nur an einer konkreten Stelle innerhalb einer anderen Definition definiert und können nicht an anderer Stelle wiederverwendet werden. Globale Elemente erstellen: Im Basisordner Elements (oder einem Unterordner) über das Kontextmenü Neu > Element wählen; Das Element wird global im Schema definiert und kann überall wiederverwendet werden - Lokale Elemente erstellen: Innerhalb eines komplexen Typs oder einer Sequenz ein lokales Element einfügen; Das Element ist nur an dieser spezifischen Stelle verfügbar"
+      }
+    },
+    {
+      "question": "Wie erstellt man ein Inhaltsmodell (sequence, choice, all)?",
+      "type": "process",
+      "difficulty": "intermediate",
+      "keywords": [
+        "sequence",
+        "choice",
+        "all",
+        "Inhaltsmodell"
+      ],
+      "topic": "XML Schema",
+      "id": 25,
+      "ground_truth": {
+        "flat_chunks": [
+          31,
+          41,
+          42,
+          124
+        ],
+        "hierarchical_chunks": [
+          38,
+          50,
+          146
+        ],
+        "answer_summary": "Zur Steuerung des Auftretens und der Anordnung von Elementen in Elementgruppen oder komplexen Typen ist die Wahl eines Inhaltsmodells notwendig. Es gibt drei Arten von Inhaltsmodellen: sequence, choice und all. Inhaltsmodell erstellen: Für eine Gruppe oder einen ComplexType über das Kontextmenü das gewünschte Inhaltsmodell wählen: Neu > Sequence, Neu > Choice oder Neu > All; Anschließend Elemente in das Inhaltsmodell einfügen"
+      }
+    },
+    {
+      "question": "Wie erstellt man eine Elementgruppe (Group)?",
+      "type": "process",
+      "difficulty": "intermediate",
+      "keywords": [
+        "Group",
+        "Elementgruppe",
+        "XSD"
+      ],
+      "topic": "XML Schema",
+      "id": 26,
+      "ground_truth": {
+        "flat_chunks": [
+          30,
+          31
+        ],
+        "hierarchical_chunks": [
+          38
+        ],
+        "answer_summary": "Eine Elementgruppe fasst mehrere Elemente virtuell zu einer Gruppe zusammen, auf die im Schema referenziert werden kann. Zur Steuerung des Auftretens und der Anordnung der Elemente ist die Wahl eines Inhaltsmodells notwendig. Vorgehensweise: 1. Zum Basisordner Groups gehen 2. Eine neue Elementgruppe erstellen: Neu > Gruppe über das Kontextmenü 3. Die Gruppe benennen 4. Ein Inhaltsmodell für die Gruppe wählen (z.B. Neu > Sequence) 5. Globale Elemente zur Gruppe hinzufügen: Neu > Globales Element... 6. Für jedes Element die Eigenschaften festlegen (z.B. MinOccurs, MaxOccurs)"
+      }
+    },
+    {
+      "question": "Wie definiert man Pattern-Constraints mit Regular Expressions?",
+      "type": "process",
+      "difficulty": "advanced",
+      "keywords": [
+        "Pattern",
+        "Regex",
+        "Constraint"
+      ],
+      "topic": "XML Schema",
+      "id": 27,
+      "ground_truth": {
+        "flat_chunks": [
+          35,
+          36
+        ],
+        "hierarchical_chunks": [
+          44
+        ],
+        "answer_summary": "Pattern-Constraints werden mit der Werteeinschränkung pattern (Muster) und regulären Ausdrücken (regular expressions) definiert. Diese werden verwendet, um spezifische Formatvorgaben für Datentypen festzulegen. Vorgehensweise: 1. Einen neuen SimpleType erstellen 2. Auf der Registerkarte SimpleType die Einschränkung pattern verwenden 3. Den regulären Ausdruck eingeben, der das gewünschte Muster beschreibt"
+      }
+    },
+    {
+      "question": "Wie erstellt man Varianten in GEFEG.FX?",
+      "type": "process",
+      "difficulty": "intermediate",
+      "keywords": [
+        "Varianten",
+        "GEFEG.FX",
+        "Schema"
+      ],
+      "topic": "GEFEG",
+      "id": 28,
+      "ground_truth": {
+        "flat_chunks": [
+          58,
+          59,
+          60,
+          61
+        ],
+        "hierarchical_chunks": [
+          73,
+          74,
+          75
+        ],
+        "answer_summary": "Varianten in GEFEG.FX erstellt man im Varianten-Ordner. Vorgehensweise: 1) Ordner 'Varianten' im Strukturbaum öffnen. 2) Über Kontextmenü 'Neu > Variante...' wählen. 3) Dialog öffnet sich mit Auswahl aller Gruppen und Typen im Schema. 4) Gewünschte Gruppe/Typ auswählen, die abgewandelt werden soll. 5) Name für die Variante vergeben (sollte beschreibend sein). 6) Bestätigen - die Variante wird als Kopie des Originals angelegt. 7) Anpassungen vornehmen (Elemente hinzufügen/entfernen, Häufigkeiten ändern, Typen anpassen). Die Variante ist eigenständig und unabhängig vom Original änderbar."
+      }
+    },
+    {
+      "question": "Wie prüft man die Wohlgeformtheit eines XML-Dokuments?",
+      "type": "process",
+      "difficulty": "beginner",
+      "keywords": [
+        "Well-Formed",
+        "Prüfung",
+        "XML"
+      ],
+      "topic": "XML Validierung",
+      "id": 29,
+      "ground_truth": {
+        "flat_chunks": [
+          78,
+          79,
+          119,
+          120
+        ],
+        "hierarchical_chunks": [
+          97,
+          98,
+          142
+        ],
+        "answer_summary": "Die Wohlgeformtheit (well-formedness) eines XML-Dokuments wird durch einen nicht validierenden XML-Parser überprüft, der die W3C Regeln für korrektes XML kennt und das Dokument syntaktisch prüft. Ein wohlgeformtes XML-Dokument muss ein Rootelement besitzen sowie korrekt geöffnete, geschlossene und verschachtelte Elemente haben. In GEFEG.FX können XML-Instanzen sowohl syntaktisch (Wohlgeformtheit) als auch semantisch geprüft werden. Die syntaktische Korrektheit ist Voraussetzung für das Weiterverarbeiten von XML-Instanzen und wird standardmäßig von fast jeder XML-Software und fast allen Internet-Browsern überprüft."
+      }
+    },
+    {
+      "question": "Wozu dienen Namespaces in XML-Dokumenten?",
+      "type": "application",
+      "difficulty": "intermediate",
+      "keywords": [
+        "Namespace",
+        "Verwendung",
+        "XML"
+      ],
+      "topic": "XML Grundlagen",
+      "id": 30,
+      "ground_truth": {
+        "flat_chunks": [
+          125,
+          126
+        ],
+        "hierarchical_chunks": [
+          147,
+          148
+        ],
+        "answer_summary": "Namespaces (Namensräume) dienen dazu, verschiedene, aber gleich bezeichnete Informationen voneinander abzugrenzen. Wenn XML-Inhalte mit unterschiedlicher Bedeutung gleiche XML-Bezeichner (Tags) zugewiesen bekommen, kann es bei einer Vermischung dieser Inhalte zu Namenskonflikten kommen. Ein XML-Parser kann ohne zusätzliche Informationen keinen Unterschied zwischen gleichnamigen Objekten erkennen. Jedem Namensraum wird ein eindeutiger Identifier zugewiesen - der URI (Uniform Resource Identifier). Der URI dient nur zur eindeutigen Bezeichnung des Namensraumes - es muss keine Datei an einer URI-Adresse hinterlegt sein."
+      }
+    },
+    {
+      "question": "Wofür verwendet man SimpleTypes in XML Schema?",
+      "type": "application",
+      "difficulty": "beginner",
+      "keywords": [
+        "SimpleType",
+        "Verwendung",
+        "Datentyp"
+      ],
+      "topic": "XML Schema",
+      "id": 31,
+      "ground_truth": {
+        "flat_chunks": [
+          32,
+          33,
+          123,
+          124
+        ],
+        "hierarchical_chunks": [
+          40,
+          41,
+          145,
+          146
+        ],
+        "answer_summary": "SimpleTypes (einfache Typen) werden verwendet, um Datentypen für Elemente und Attribute zu definieren. Elemente können auf komplexen oder einfachen Typen basieren, während Attribute immer auf einfachen Typen basieren müssen. Einfache Typen können keine weiteren Attribute oder Elemente beinhalten. SimpleTypes werden verwendet, wenn die zur Verfügung stehenden W3C-Basistypen (primitive types) noch zu unspezifisch sind. Durch Ableitung und Einschränkung können eigene Datentypen mit spezifischen Regeln erstellt werden, z.B. für Längenbeschränkungen, Muster (Pattern) oder Wertelisten (Enumeration)."
+      }
+    },
+    {
+      "question": "Wann nutzt man ComplexTypes statt SimpleTypes?",
+      "type": "application",
+      "difficulty": "intermediate",
+      "keywords": [
+        "ComplexType",
+        "SimpleType",
+        "Auswahl"
+      ],
+      "topic": "XML Schema",
+      "id": 32,
+      "ground_truth": {
+        "flat_chunks": [
+          38,
+          39,
+          123
+        ],
+        "hierarchical_chunks": [
+          48,
+          145
+        ],
+        "answer_summary": "ComplexTypes (komplexe Typen) werden verwendet, wenn ein Element weitere Attribute oder Elemente beinhalten soll. SimpleTypes (einfache Typen) können dagegen keine weiteren Attribute oder Elemente enthalten. ComplexTypes werden eingesetzt, um logische Einheiten zu definieren, die aus mehreren Elementen bestehen und wiederverwendbar sein sollen. Ein typisches Beispiel ist eine Adresse, die aus mehreren Feldern wie Name, Straße, Postleitzahl, Stadt und Land besteht."
+      }
+    },
+    {
+      "question": "Wozu dient Schematron zusätzlich zur XSD-Validierung?",
+      "type": "application",
+      "difficulty": "advanced",
+      "keywords": [
+        "Schematron",
+        "XSD",
+        "semantische Validierung"
+      ],
+      "topic": "XML Validierung",
+      "id": 33,
+      "ground_truth": {
+        "flat_chunks": [
+          79,
+          80,
+          81
+        ],
+        "hierarchical_chunks": [
+          98,
+          99
+        ],
+        "answer_summary": "Schematron ergänzt XSD-Validierung um semantische Prüfungen. Während XSD nur strukturelle und syntaktische Korrektheit prüft (Reihenfolge, Häufigkeit, Formate, Namensräume), ermöglicht Schematron komplexe Geschäftslogik-Validierung: Abhängigkeiten zwischen Elementen, mathematische Berechnungen (z.B. Summenprüfung), Wenn-Dann-Regeln und logische Bedingungen. Schematron wird nur durchgeführt, wenn die XSD-Validierung erfolgreich war. Typische Anwendungsfälle: Prüfung ob Gesamtsumme = Summe der Einzelpositionen, ob Bestelldatum vor Lieferdatum liegt, oder ob bei Zahlungsart 'Rechnung' eine Rechnungsnummer vorhanden ist."
+      }
+    },
+    {
+      "question": "Wann verwendet man sequence vs. choice vs. all im Schema?",
+      "type": "application",
+      "difficulty": "intermediate",
+      "keywords": [
+        "sequence",
+        "choice",
+        "all"
+      ],
+      "topic": "XML Schema",
+      "id": 34,
+      "ground_truth": {
+        "flat_chunks": [
+          39,
+          41,
+          42,
+          124
+        ],
+        "hierarchical_chunks": [
+          48,
+          50,
+          146
+        ],
+        "answer_summary": "Die drei Inhaltsmodelle bestimmen, wie Elemente in komplexen Typen auftreten dürfen: sequence - Verwendet man, wenn die Reihenfolge der Elemente genau festgelegt sein muss. Jedes Element kann als optional oder mandatory sowie wiederholbar definiert werden. Dies ist das am häufigsten verwendete Inhaltsmodell. choice - Verwendet man, wenn genau eines der Elemente (und nur eines) vorhanden sein muss. Ideal für Alternativen, z.B. wenn entweder Email oder MobileNumber übertragen werden soll. all - Verwendet man, wenn die enthaltenen Elemente gar nicht oder einmal erscheinen sollen und die Reihenfolge beliebig ist."
+      }
+    },
+    {
+      "question": "Für welche Zwecke nutzt man Attributgruppen?",
+      "type": "application",
+      "difficulty": "intermediate",
+      "keywords": [
+        "AttributeGroup",
+        "Wiederverwendung"
+      ],
+      "topic": "XML Schema",
+      "id": 35,
+      "ground_truth": {
+        "flat_chunks": [
+          30,
+          123
+        ],
+        "hierarchical_chunks": [
+          37,
+          145
+        ],
+        "answer_summary": "Attributgruppen werden verwendet, um mehrere Attribute virtuell zu einer Gruppe zusammenzufassen, auf die im Schema referenziert werden kann. Dies ermöglicht die Wiederverwendbarkeit von zusammengehörigen Attributen an verschiedenen Stellen im Schema, ohne sie jedes Mal neu definieren zu müssen. Der Hauptzweck ist die Strukturierung und Wiederverwendung von Attributen, die logisch zusammengehören (z.B. OrderDate und OrderNumber als OrderInfo-Gruppe), ähnlich wie Elementgruppen für Elemente verwendet werden."
+      }
+    },
+    {
+      "question": "Wann sollte man globale statt lokale Elemente definieren?",
+      "type": "application",
+      "difficulty": "intermediate",
+      "keywords": [
+        "global",
+        "lokal",
+        "Wiederverwendung"
+      ],
+      "topic": "XML Schema",
+      "id": 36,
+      "ground_truth": {
+        "flat_chunks": [
+          42,
+          128
+        ],
+        "hierarchical_chunks": [
+          149
+        ],
+        "answer_summary": "Globale Elemente sollten verwendet werden bei: 1) Wiederverwendung an mehreren Stellen im Schema - globale Elemente können beliebig oft referenziert werden. 2) Konsistenz - einmal definiert, überall gleich. 3) Root-Elemente - das Wurzelelement eines XML-Dokuments muss global sein. 4) Wartbarkeit - Änderungen am globalen Element wirken sich automatisch überall aus. Lokale Elemente hingegen sind sinnvoll für: einmalig verwendete, kontextspezifische Definitionen die nur an genau einer Stelle benötigt werden und nicht wiederverwendbar sein müssen."
+      }
+    },
+    {
+      "question": "Wofür verwendet man Annotations im XML-Schema?",
+      "type": "application",
+      "difficulty": "beginner",
+      "keywords": [
+        "Annotation",
+        "Dokumentation"
+      ],
+      "topic": "XML Schema",
+      "id": 37,
+      "ground_truth": {
+        "flat_chunks": [
+          26,
+          27,
+          47,
+          48,
+          56
+        ],
+        "hierarchical_chunks": [
+          32,
+          33,
+          59,
+          69
+        ],
+        "answer_summary": "Annotations (in GEFEG.FX als 'Notes' bezeichnet) werden verwendet, um Kommentare und zusätzliche Spezifikationen zum Schema zu erfassen. Sie dienen der Dokumentation von Elementen, Typen und Attributen mit Namen, Beschreibungen, Beispielwerten und weiteren kontextabhängigen Informationen. Hauptzwecke: Beschreibung der Verwendung von Datenelementen; Vergabe von Namen und Beschreibungen; Erfassung von Beispielwerten; Notierung offener Fragen und zusätzlicher Spezifikationen; Kontextabhängige Dokumentation für verschiedene Verwendungszwecke - Notes können vererbt und kontextabhängig überschrieben werden, was eine flexible und wiederverwendbare Dokumentation ermöglicht."
+      }
+    },
+    {
+      "question": "Wofür verwendet man XPath in der Praxis?",
+      "type": "application",
+      "difficulty": "intermediate",
+      "keywords": [
+        "XPath",
+        "Navigation",
+        "Abfrage"
+      ],
+      "topic": "XML Technologien",
+      "id": 38,
+      "ground_truth": {
+        "flat_chunks": [
+          101,
+          102,
+          128,
+          129
+        ],
+        "hierarchical_chunks": [
+          122,
+          151
+        ],
+        "answer_summary": "XPath wird in der Praxis verwendet für: 1) Navigation in XML-Dokumenten - Lokalisierung und Auswahl von Knoten über Pfadausdrücke. 2) XSLT-Transformationen - Auswahl der zu transformierenden Elemente. 3) Schematron-Validierung - Definition der Prüfkontexte und Test-Bedingungen. 4) XML-Abfragen - Extraktion spezifischer Daten aus XML-Dateien. 5) API-Entwicklung - Zugriff auf XML-Konfigurationsdateien. XPath ermöglicht präzise Adressierung durch Achsen (child, parent, ancestor), Prädikate für Filterung und Funktionen zur Datenmanipulation."
+      }
+    },
+    {
+      "question": "Wann nutzt man XSLT zur Transformation?",
+      "type": "application",
+      "difficulty": "intermediate",
+      "keywords": [
+        "XSLT",
+        "Transformation",
+        "Mapping"
+      ],
+      "topic": "XML Technologien",
+      "id": 39,
+      "ground_truth": {
+        "flat_chunks": [
+          81,
+          82,
+          128,
+          129,
+          130,
+          132,
+          133
+        ],
+        "hierarchical_chunks": [
+          101,
+          151,
+          152
+        ],
+        "answer_summary": "XSLT wird zur Transformation von XML-Dokumenten eingesetzt bei: 1) Format-Konvertierung - XML zu HTML, PDF oder anderen XML-Formaten. 2) Datenmigration - Umwandlung zwischen verschiedenen EDI-Standards (z.B. EDIFACT zu XML). 3) Rendering - Generierung von Webseiten aus XML-Daten. 4) Datenextraktion - Filtern und Umstrukturieren von XML-Inhalten. 5) Reporting - Erzeugung von Berichten aus strukturierten Daten. XSLT ist besonders nützlich wenn dieselbe Transformation wiederholt auf verschiedene Dokumente angewendet werden muss."
+      }
+    },
+    {
+      "question": "Wann verwendet man Restriction vs. Extension bei der Typableitung?",
+      "type": "application",
+      "difficulty": "advanced",
+      "keywords": [
+        "Restriction",
+        "Extension",
+        "Ableitung"
+      ],
+      "topic": "XML Schema",
+      "id": 40,
+      "ground_truth": {
+        "flat_chunks": [
+          33,
+          40,
+          41,
+          123,
+          124
+        ],
+        "hierarchical_chunks": [
+          40,
+          49,
+          50,
+          145
+        ],
+        "answer_summary": "Restriction verwendet man zur Einschränkung bestehender Typen: wenn nur die Nutzung eingeschränkt werden soll (z.B. optionale Elemente zu Pflichtfeldern machen, Wertebereiche einengen), aber keine neuen Elemente hinzugefügt werden. Extension hingegen für Erweiterung mit neuen Elementen und Attributen: wenn zusätzliche Informationen zur Basisstruktur hinzukommen sollen. Faustregel: Restriction für spezialisierte, striktere Versionen (z.B. SellerType vom PartyType mit Pflicht-Name). Extension für erweiterte Versionen mit zusätzlichen Feldern (z.B. BuyerType vom PartyType mit Kontaktdaten)."
+      }
+    },
+    {
+      "question": "Wofür nutzt man Varianten in GEFEG.FX?",
+      "type": "application",
+      "difficulty": "intermediate",
+      "keywords": [
+        "Varianten",
+        "Anpassung",
+        "GEFEG.FX"
+      ],
+      "topic": "GEFEG",
+      "id": 41,
+      "ground_truth": {
+        "flat_chunks": [
+          58,
+          59
+        ],
+        "hierarchical_chunks": [
+          73,
+          74
+        ],
+        "answer_summary": "Varianten in GEFEG.FX dienen zur Erstellung angepasster Versionen von Gruppen oder Typen ohne das Original zu verändern. Hauptanwendungsfälle: 1) Branchenspezifische Anpassungen - Standard-Schema für verschiedene Branchen anpassen. 2) Vereinfachung - Komplexe Standards für einfachere Anwendungsfälle reduzieren. 3) Profiling - Internationale Standards an nationale Anforderungen anpassen. 4) Testing - Testversionen für Experimente ohne Original zu gefährden. 5) Versionierung - Verschiedene Versionen parallel pflegen. Varianten sind eigenständig änderbar und haben keine Rückwirkung auf das Original, ermöglichen aber gemeinsame Basis-Infrastruktur."
+      }
+    },
+    {
+      "question": "Was ist der Unterschied zwischen Well-Formed und Valid bei XML?",
+      "type": "comparison",
+      "difficulty": "intermediate",
+      "keywords": [
+        "Well-Formed",
+        "Valid",
+        "Unterschied"
+      ],
+      "topic": "XML Grundlagen",
+      "id": 42,
+      "ground_truth": {
+        "flat_chunks": [
+          119,
+          120
+        ],
+        "hierarchical_chunks": [
+          141,
+          142
+        ],
+        "answer_summary": "Well-Formed XML-Dokumente erfüllen nur die syntaktischen Regeln: korrekte Tag-Struktur, geschlossene Elemente, ein Wurzelelement, korrekte Attribut-Syntax. Ein XML-Parser kann solche Dokumente verarbeiten. Valid XML-Dokumente sind zusätzlich schema-konform: sie erfüllen alle Regeln eines zugehörigen XSD-Schemas bezüglich Struktur, Datentypen, Häufigkeiten und Reihenfolgen. Zusammenfassung: Well-Formed = syntaktisch korrekt (Grundvoraussetzung), Valid = syntaktisch korrekt UND schema-konform (strengere Anforderung)."
+      }
+    },
+    {
+      "question": "Was ist der Unterschied zwischen SimpleType und ComplexType?",
+      "type": "comparison",
+      "difficulty": "beginner",
+      "keywords": [
+        "SimpleType",
+        "ComplexType",
+        "XSD"
+      ],
+      "topic": "XML Schema",
+      "id": 43,
+      "ground_truth": {
+        "flat_chunks": [
+          29,
+          33,
+          38,
+          39,
+          123,
+          124
+        ],
+        "hierarchical_chunks": [
+          37,
+          41,
+          42,
+          48,
+          145,
+          146
+        ],
+        "answer_summary": "SimpleType enthält nur einfache Werte ohne weitere Struktur: Text, Zahlen, Datum. Wird für Attribute und einfache Element-Inhalte verwendet. Beispiele: String mit Längenbeschränkung, Zahlen mit Wertebereich, Enumerationen. ComplexType kann Attribute und/oder Kind-Elemente enthalten: strukturierte Daten als logische Einheiten. Unterstützt Inhaltsmodelle (sequence, choice, all). Beispiele: Adresse mit Straße/PLZ/Stadt, Party mit ID/Name/Kontakt. Regel: Elemente mit Attributen benötigen immer ComplexType. Reine Wert-Elemente ohne Attribute können SimpleType sein."
+      }
+    },
+    {
+      "question": "Was unterscheidet globale von lokalen Elementen?",
+      "type": "comparison",
+      "difficulty": "intermediate",
+      "keywords": [
+        "global",
+        "lokal",
+        "Scope"
+      ],
+      "topic": "XML Schema",
+      "id": 44,
+      "ground_truth": {
+        "flat_chunks": [
+          41,
+          42
+        ],
+        "hierarchical_chunks": [
+          38,
+          50
+        ],
+        "answer_summary": "Globale Elemente sind direkte Unterobjekte von xs:schema auf oberster Ebene. Sie haben eindeutige Namen, können überall im Schema referenziert und wiederverwendet werden. Werden im Elements-Ordner erstellt. Lokale Elemente werden innerhalb einer anderen Definition (z.B. ComplexType) definiert. Sie existieren nur im Kontext ihrer Elterndefinition und können nicht wiederverwendet werden. Der Hauptunterschied liegt in der Wiederverwendbarkeit: global = mehrfach nutzbar, lokal = einmalig an konkreter Stelle."
+      }
+    },
+    {
+      "question": "Was ist der Unterschied zwischen Restriction und Extension?",
+      "type": "comparison",
+      "difficulty": "intermediate",
+      "keywords": [
+        "Restriction",
+        "Extension",
+        "Ableitung"
+      ],
+      "topic": "XML Schema",
+      "id": 45,
+      "ground_truth": {
+        "flat_chunks": [
+          33,
+          40,
+          41,
+          123,
+          124
+        ],
+        "hierarchical_chunks": [
+          40,
+          49,
+          50,
+          145
+        ],
+        "answer_summary": "Restriction schränkt einen Basistyp ein und macht ihn strenger. Die Struktur bleibt erhalten, aber mit strengeren Regeln. Geerbte Elemente (blau dargestellt) können strukturell nicht bearbeitet werden. Keine neuen Elemente möglich, nur Einschränkung bestehender (z.B. optional zu Pflicht, Wertebereich verengen). Extension erweitert einen Basistyp um zusätzliche Elemente oder Attribute. Die Basisstruktur wird übernommen (blau), neue Elemente können hinzugefügt werden (schwarz). Faustregel: Restriction für spezialisierte Untertypen, Extension für erweiterte Versionen."
+      }
+    },
+    {
+      "question": "Was unterscheidet EDIFACT von XML als EDI-Format?",
+      "type": "comparison",
+      "difficulty": "intermediate",
+      "keywords": [
+        "EDIFACT",
+        "XML",
+        "Format"
+      ],
+      "topic": "Nachrichtenformate",
+      "id": 46,
+      "ground_truth": {
+        "flat_chunks": [
+          131
+        ],
+        "hierarchical_chunks": [],
+        "answer_summary": "EDIFACT verwendet explizite Trennzeichen zur Strukturierung, Position der Elemente ist entscheidend, nicht menschenlesbar, erfordert teure EDI-Infrastruktur (Netze, Übersetzungssoftware), zentral festgelegte allgemeine Nachrichtenstrukturen. XML verwendet strukturierende Tags statt Trennzeichen, Elemente werden am Namen erkannt, im Browser menschenlesbar, Parser oft bereits verfügbar oder kostenlos (Browser, XML-Tools), flexible Definition und einfache Verbreitung des Austauschstandards."
+      }
+    },
+    {
+      "question": "Was ist der Unterschied zwischen XSD-Validierung und Schematron-Validierung?",
+      "type": "comparison",
+      "difficulty": "advanced",
+      "keywords": [
+        "XSD",
+        "Schematron",
+        "Validierung"
+      ],
+      "topic": "XML Validierung",
+      "id": 47,
+      "ground_truth": {
+        "flat_chunks": [
+          80,
+          81,
+          130
+        ],
+        "hierarchical_chunks": [
+          98,
+          99,
+          100,
+          152
+        ],
+        "answer_summary": "XSD-Validierung prüft syntaktische und strukturelle Korrektheit: Reihenfolge und Häufigkeit von Elementen, Formate, Wertebereiche, Namensräume und Codes. Bei Fehlern erfolgt Abbruch. Schematron-Validierung prüft semantische Regeln und Geschäftslogik: Abhängigkeiten zwischen Objekten, mathematische Berechnungen, Wenn-Dann-Regeln. Wird nur nach erfolgreicher XSD-Validierung durchgeführt. Zusammenfassung: XSD = Syntax, Schematron = Semantik. Beide ergänzen sich für vollständige Validierung."
+      }
+    },
+    {
+      "question": "Wie behebt man Namespace-Konflikte in XML-Dokumenten?",
+      "type": "troubleshooting",
+      "difficulty": "advanced",
+      "keywords": [
+        "Namespace",
+        "Konflikt",
+        "Lösung"
+      ],
+      "topic": "XML Grundlagen",
+      "id": 48,
+      "ground_truth": {
+        "flat_chunks": [
+          125,
+          126
+        ],
+        "hierarchical_chunks": [
+          147,
+          148
+        ],
+        "answer_summary": "Namespace-Konflikte entstehen bei gleichnamigen Tags mit unterschiedlicher Bedeutung. XML-Parser können ohne Namensräume keinen Unterschied erkennen. Lösung durch XML-Namensräume (xmlns): Jedem Namensraum wird ein eindeutiger URI zugewiesen. URIs sind meist Webadressen für Einzigartigkeit, müssen aber nicht erreichbar sein - sie dienen nur zur Identifikation. Vorgehensweise: Eindeutige Namespace-Prefixe verwenden, korrekte xmlns-Deklarationen setzen, Namespace-URIs auf Tippfehler prüfen."
+      }
+    },
+    {
+      "question": "Was tun bei Validierungsfehlern wegen fehlender Pflichtfelder?",
+      "type": "troubleshooting",
+      "difficulty": "intermediate",
+      "keywords": [
+        "Validierungsfehler",
+        "Pflichtfeld",
+        "minOccurs"
+      ],
+      "topic": "XML Validierung",
+      "id": 49,
+      "ground_truth": {
+        "flat_chunks": [
+          31,
+          89,
+          90,
+          126
+        ],
+        "hierarchical_chunks": [
+          38,
+          111,
+          148
+        ],
+        "answer_summary": "Bei Validierungsfehlern wegen fehlender Pflichtfelder gibt es zwei Lösungsmöglichkeiten: 1. Fehlende Daten ergänzen: Die fehlenden Pflichtfelder im XML-Dokument mit den erforderlichen Werten befüllen. 2. Schema anpassen: Wenn das Feld nicht zwingend erforderlich ist, kann im Schema der MinOccurs-Wert angepasst werden: MinOccurs = 1: Element ist ein Pflichtfeld; MinOccurs = 0: Element ist optional - Ein Element wird zum Pflichtfeld, indem MinOccurs auf 1 gesetzt wird. Ohne Häufigkeitsangabe gilt standardmäßig minOccurs = 1 und maxOccurs = 1 (Pflichtelement, nicht wiederholbar)."
+      }
+    },
+    {
+      "question": "Wie debuggt man fehlerhafte Schematron-Regeln?",
+      "type": "troubleshooting",
+      "difficulty": "advanced",
+      "keywords": [
+        "Schematron",
+        "Debugging",
+        "Fehlersuche"
+      ],
+      "topic": "XML Validierung",
+      "id": 50,
+      "ground_truth": {
+        "flat_chunks": [
+          100,
+          101
+        ],
+        "hierarchical_chunks": [],
+        "answer_summary": "Schematron-Regeln werden in GEFEG.FX über die Test-Funktion debuggt. Vorgehensweise: 1) Check-Note selektieren und 'Testen der Plausibilitätsregel' wählen. 2) Test-Einstellungen: XML-Datei laden, Kontext-XPath eingeben (z.B. $this), Assertion-Regel eingeben. 3) Testen ausführen: Bei Erfüllung grüne Markierung, bei Nicht-Erfüllung rote Markierung. 4) Verschiedene Werte testen durch virtuelle Änderungen in der Vorschau. Änderungen werden nicht gespeichert. So kann die Regel mit verschiedenen Szenarien geprüft werden bevor sie produktiv eingesetzt wird."
+      }
+    }
+  ]
+}
